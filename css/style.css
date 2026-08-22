@@ -450,9 +450,11 @@ section { padding: 64px 0; }
   border-radius: 4px;
 }
 
+.swatch.platinum-tier { background: #b8c2d4; }
 .swatch.gold-tier { background: var(--gold); }
-.swatch.blue-tier { background: var(--blue); }
 .swatch.silver-tier { background: #a9b3c7; }
+.swatch.bronze-tier { background: #c67f4e; }
+.swatch.steel-tier { background: #71797e; }
 
 .sponsor-grid {
   display: grid;
@@ -521,6 +523,10 @@ section { padding: 64px 0; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+}
+
+.judges-links-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .judges-link {

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  var year = document.querySelector("[data-year]");
+  var year = document.querySelector(".footer-bottom [data-year]");
   if (year) {
     year.textContent = new Date().getFullYear();
   }

@@ -398,8 +398,18 @@ section { padding: 64px 0; }
 
 .robot-photo {
   height: 200px;
-  background: radial-gradient(circle at 30% 30%, var(--sky), var(--navy));
+  background: var(--gray-light);
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.robot-photo img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .robot-photo::after {
